@@ -1,0 +1,153 @@
+/* Reset */
+body,
+html,
+header,
+main,
+footer {
+	float: left;
+	width: 100%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+/* General Font */
+body,
+html,
+p,
+input,
+textarea {
+	font-family: 'open_sansregular';
+}
+
+/* Main Heading */
+h1, h2, h3, h4, h5 {
+	font-family: 'open_sanslight';
+}
+
+/* Bold */
+strong,
+b{
+	font-family: 'open_sansbold';
+}
+
+
+/* Main Elements */
+
+body {
+	color: #333;
+}
+
+a:link,
+a:visited {
+	color: #00aacc;
+}
+
+a:hover {
+}
+
+a:focus {
+	outline: none;
+}
+
+
+/* Bootstrap Fixes */
+
+button,
+.btn,
+.alert,
+nav,
+.dropdown-menu,
+.panel-group .panel,
+.form-control {
+	border-radius: 0;
+}
+.no-child-padding > div{
+	padding: 0;
+}
+
+.navbar {
+	min-height: 75px;
+}
+
+.navbar-collapse {
+	margin-top: 20px;
+}
+.navbar-toggle {
+	color: #333;
+}
+
+.nav>li>a:link, .nav>li>a:visited {
+	background: transparent;
+	border: 1px solid transparent;
+	text-shadow: none;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+	background: #00aacc;
+	border: 1px solid #f9f9f9;
+	color: #fff;
+	text-shadow: none;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	background: #00aacc;
+	border: 1px solid #f9f9f9;
+	color: #fff;
+}
+
+.nav>.dropdown>a:after {
+	display: inline-block;
+	margin-left: 6px;
+	content: '\E764';
+	float: right;
+	font-size: 2em;
+	font-family: "EntypoRegular";
+	color: #666;
+	margin-top: -0.2em;
+}
+
+.nav>.dropdown:hover>a:after,
+.nav>.dropdown.open:hover>a:after{
+	color: #fff;
+}
+
+/* Flexslider Fixes */
+
+.flexslider {
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+
+.flex-direction-nav .flex-prev,
+.flexslider:hover .flex-prev {
+	/*left: 0;*/
+}
+.flex-direction-nav .flex-next,
+.flexslider:hover .flex-next {
+	/*right: 0;*/
+}
+
+/* Flexslider Pilar */
+.flex-direction-nav a {
+	color: #fff;
+	background: transparent;
+}
+
+.flex-direction-nav a:before {
+	font-family: 'EntypoRegular';
+	text-shadow: none;
+	font-size: 3em;
+	line-height: 0.45em;
+}
+
+.flex-direction-nav a.flex-prev:before {
+	content:'\E765';
+	margin-left: 12px;
+}
+.flex-direction-nav a.flex-next:before {
+	content:'\E766';
+	margin-right: 12px;
+}
+
